@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b6a8c6fb9bebd24da3d485a46564848, type: 3}
+  m_Name: Carte16
+  m_EditorClassIdentifier: 
+  carteID: 0
+  NomCarte: 
+  sprite: 15
+  DialogueGauche: Oh non, c'est ennuyeux
+  DialogueDroite: Ne perdons pas de temps!
+  Info: "C'est le Messier 12! Un amas globulaire! un des objectifs de l'arch\xE9ologique
+    galactique!\nIl faudrait l'\xE9tudier pour mieux comprendre ce qui nous entoure!\n"
+  Grecherche: 0
+  Gerreur: 5
+  GTemps: -5
+  Drecherche: 5
+  Derreur: -5
+  DTemps: 10

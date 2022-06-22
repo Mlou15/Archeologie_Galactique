@@ -210,6 +210,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 91ae936ac758ba84a91c29e28afe35e2, type: 3}
   - {fileID: 21300000, guid: 6ba9476efc666b443a3c966aa085ce68, type: 3}
   - {fileID: 21300000, guid: 1c61c78a39e270a438b6b24697311801, type: 3}
+  - {fileID: 21300000, guid: ba905bef5db6f94438e1fa83a7928a13, type: 3}
+  - {fileID: 21300000, guid: 29005eb2421738c4c86d8b62bfc78e96, type: 3}
   Cartes:
   - {fileID: 11400000, guid: 4f8654cf2f55b1e419986e8b0c99f6f5, type: 2}
   - {fileID: 11400000, guid: a5236f7c801549e48b3500c6fe4f7f19, type: 2}
@@ -226,6 +228,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: be95c297c7335a647b4c47fb70c6ab5c, type: 2}
   - {fileID: 11400000, guid: 367a48b57b5bab14b80f54d5c2945f50, type: 2}
   - {fileID: 11400000, guid: 39cf73e50faf7374d95a68e2676d6916, type: 2}
+  - {fileID: 11400000, guid: 800fc221b44d542429f3708482db62c9, type: 2}
+  - {fileID: 11400000, guid: b2494b7f9d5a4bf49ad1323eb1ee9726, type: 2}
 --- !u!114 &36759207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1796,7 +1800,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.873, y: -1.829}
+  m_AnchoredPosition: {x: 0.865, y: -1.487}
   m_SizeDelta: {x: 4.7955, y: 0.8037}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1961010572
@@ -1823,8 +1827,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1fa3451e250188c4e9c59490dd56429a, type: 2}
+  m_sharedMaterial: {fileID: -1339281943452054789, guid: 1fa3451e250188c4e9c59490dd56429a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1848,8 +1852,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 1.5
-  m_fontSizeBase: 1.5
+  m_fontSize: 1.45
+  m_fontSizeBase: 1.45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1913,7 +1917,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - {fileID: -1339281943452054789, guid: 1fa3451e250188c4e9c59490dd56429a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

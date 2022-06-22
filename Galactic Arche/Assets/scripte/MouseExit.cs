@@ -40,6 +40,8 @@ public enum Planete
     Magellan,
     Cérès,
     Makémaké,
+    Messier,
+    tucanae,
 
 
 }
