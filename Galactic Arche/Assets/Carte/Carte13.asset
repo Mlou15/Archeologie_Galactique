@@ -21,7 +21,7 @@ MonoBehaviour:
     galactique! \nAllons-nous l'\xE9tudier?"
   Grecherche: 0
   Gerreur: 10
-  GTemps: -10
+  GTemps: 0
   Drecherche: 10
   Derreur: 0
   DTemps: 15

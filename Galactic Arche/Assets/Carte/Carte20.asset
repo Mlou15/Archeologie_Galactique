@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b6a8c6fb9bebd24da3d485a46564848, type: 3}
+  m_Name: Carte20
+  m_EditorClassIdentifier: 
+  carteID: 0
+  NomCarte: 
+  sprite: 19
+  DialogueGauche: "Pas dans la voie lact\xE9e, pas besoin de l'\xE9tudier!"
+  DialogueDroite: "La plan\xE8te \xE0 l'air interessante! "
+  Info: "La WASP-1,une \xE9toile de haute m\xE9tallicit\xE9 se trouvant \ndans la
+    galaxie d'androm\xE8de! "
+  Grecherche: 0
+  Gerreur: 0
+  GTemps: -5
+  Drecherche: 0
+  Derreur: 10
+  DTemps: 10

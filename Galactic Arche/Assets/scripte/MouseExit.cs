@@ -42,6 +42,10 @@ public enum Planete
     Makémaké,
     Messier,
     tucanae,
+    PetiteOurs,
+    TauCeti,
+    wasp,
+
 
 
 }

@@ -212,6 +212,9 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1c61c78a39e270a438b6b24697311801, type: 3}
   - {fileID: 21300000, guid: ba905bef5db6f94438e1fa83a7928a13, type: 3}
   - {fileID: 21300000, guid: 29005eb2421738c4c86d8b62bfc78e96, type: 3}
+  - {fileID: 21300000, guid: efdfd963eb7e2b041aed78e6415d0c1a, type: 3}
+  - {fileID: 21300000, guid: 13091cce6235e9a499feab44856dead3, type: 3}
+  - {fileID: 21300000, guid: 5ab1e3316c1e62c4b87652f01bd1bc07, type: 3}
   Cartes:
   - {fileID: 11400000, guid: 4f8654cf2f55b1e419986e8b0c99f6f5, type: 2}
   - {fileID: 11400000, guid: a5236f7c801549e48b3500c6fe4f7f19, type: 2}
@@ -230,6 +233,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 39cf73e50faf7374d95a68e2676d6916, type: 2}
   - {fileID: 11400000, guid: 800fc221b44d542429f3708482db62c9, type: 2}
   - {fileID: 11400000, guid: b2494b7f9d5a4bf49ad1323eb1ee9726, type: 2}
+  - {fileID: 11400000, guid: 5dac67f8602f6af469c6f8adbb381df8, type: 2}
+  - {fileID: 11400000, guid: 90d4d1ce39a86e74ab04c1b78961416d, type: 2}
+  - {fileID: 11400000, guid: c5d936470b84b7a45b9ad24000e31423, type: 2}
 --- !u!114 &36759207
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b6a8c6fb9bebd24da3d485a46564848, type: 3}
+  m_Name: Carte19
+  m_EditorClassIdentifier: 
+  carteID: 0
+  NomCarte: 
+  sprite: 18
+  DialogueGauche: "Je pr\xE9f\xE8re aller dormir"
+  DialogueDroite: En avant toute!
+  Info: "La belle plan\xE8te de Tau Ceti e! Elle serait une plan\xE8te extrasolaire
+    (exoplan\xE8te) de type super-Terre en orbite dans la zone habitable de l'\xE9toile
+    Tau Ceti\nLa recherche de plan\xE8re est aussi un but de l'arch\xE9ologie galactique"
+  Grecherche: -5
+  Gerreur: 10
+  GTemps: 0
+  Drecherche: 5
+  Derreur: 0
+  DTemps: 10
