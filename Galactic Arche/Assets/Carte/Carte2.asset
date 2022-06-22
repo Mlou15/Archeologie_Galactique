@@ -18,11 +18,12 @@ MonoBehaviour:
   DialogueGauche: Non
   DialogueDroite: Oui
   Info: "Plan\xE8te : 14 Andromedae\r\nUnivers : Androm\xE8de.  \r\nComposition d\xE9tect\xE9
-    : ?\r\n\n \r\n\rcette plan\xE8re est dans l'univers d'androm\xE8de\nMais elle
-    peut sans doute rajouter de la recherche.\n\n"
+    : ?\r\n\n \r\n\rcette plan\xE8re est dans l'univers d'androm\xE8de. Elle ne fait
+    pas partie des objectifs de l'arch\xE9ologie galactique.\nMais elle peut sans
+    doute rajouter de la recherche.\n\n"
   Grecherche: 0
   Gerreur: -5
   GTemps: -5
-  Drecherche: 10
+  Drecherche: 5
   Derreur: 0
   DTemps: 5

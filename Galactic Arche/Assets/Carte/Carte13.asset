@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b6a8c6fb9bebd24da3d485a46564848, type: 3}
+  m_Name: Carte13
+  m_EditorClassIdentifier: 
+  carteID: 0
+  NomCarte: 
+  sprite: 12
+  DialogueGauche: Pas envie!
+  DialogueDroite: "Bien s\xFBre!"
+  Info: "C'est le nuage de Magellan, il fait partie des recherches sur l'arch\xE9ologie
+    galactique! \nAllons-nous l'\xE9tudier?"
+  Grecherche: 0
+  Gerreur: 10
+  GTemps: -10
+  Drecherche: 10
+  Derreur: 0
+  DTemps: 15

@@ -18,12 +18,13 @@ MonoBehaviour:
   DialogueGauche: Non
   DialogueDroite: Oui
   Info: "Plan\xE8te : TRAPPIST-1 d\r.\nUnivers : Voie Lact\xE9e.  \r\nComposition
-    d\xE9tect\xE9 : elle contient potentiellement de l\u2019eau.  \r\n \r\n\r\n                
-    Il y'a peu de chose a \xE9tudier sur\n\tcette plan\xE8te mais elle fait quand\n\tm\xEAme
-    partie de la voie lact\xE9e.\n\n"
+    d\xE9tect\xE9 : elle contient potentiellement de l\u2019eau.  \r\n \r\nIl y'a
+    peu de chose a \xE9tudier sur cette plan\xE8te mais elle fait quand m\xEAme partie
+    de la voie lact\xE9e. \nOn pourrait mieux comprendre les propri\xE9t\xE9s dynamique
+    et chimique de la galaxie\n"
   Grecherche: 5
   Gerreur: 5
   GTemps: 5
-  Drecherche: 10
+  Drecherche: 5
   Derreur: -5
   DTemps: 5

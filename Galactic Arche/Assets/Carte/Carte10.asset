@@ -15,8 +15,8 @@ MonoBehaviour:
   carteID: 0
   NomCarte: Dodo
   sprite: 9
-  DialogueGauche: 
-  DialogueDroite: 
+  DialogueGauche: Bonne nuit
+  DialogueDroite: Bonne nuit
   Info: "Il est l'heure de rentrer chez vous. \nRevenez demain "
   Grecherche: 0
   Gerreur: -10

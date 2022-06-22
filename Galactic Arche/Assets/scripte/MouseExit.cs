@@ -36,5 +36,10 @@ public enum Planete
     Barnard,
     dodo,
     pause_café,
-    
+    planète_X,
+    Magellan,
+    Cérès,
+    Makémaké,
+
+
 }

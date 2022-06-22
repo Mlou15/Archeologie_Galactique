@@ -206,6 +206,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 3e69c39600887224b90cda009d8a4eb9, type: 3}
   - {fileID: 21300000, guid: 22498079d1c48714b99d141c3a9c819a, type: 3}
   - {fileID: 21300000, guid: c64b9c7a4ebf834439caa2ef8c9a345f, type: 3}
+  - {fileID: 21300000, guid: 047fd17288f2c2f47a2b3f6d92c51d76, type: 3}
+  - {fileID: 21300000, guid: 91ae936ac758ba84a91c29e28afe35e2, type: 3}
+  - {fileID: 21300000, guid: 6ba9476efc666b443a3c966aa085ce68, type: 3}
+  - {fileID: 21300000, guid: 1c61c78a39e270a438b6b24697311801, type: 3}
   Cartes:
   - {fileID: 11400000, guid: 4f8654cf2f55b1e419986e8b0c99f6f5, type: 2}
   - {fileID: 11400000, guid: a5236f7c801549e48b3500c6fe4f7f19, type: 2}
@@ -218,6 +222,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b34e2e934f2e76d4cba03d8c72e3c122, type: 2}
   - {fileID: 11400000, guid: c1c2c7af40bb0204088162d3e5dbe957, type: 2}
   - {fileID: 11400000, guid: 71a6f45d9e1604348b21dd61602b2a1e, type: 2}
+  - {fileID: 11400000, guid: fa4f999f1c38ed64ca2827d7db18ceb1, type: 2}
+  - {fileID: 11400000, guid: be95c297c7335a647b4c47fb70c6ab5c, type: 2}
+  - {fileID: 11400000, guid: 367a48b57b5bab14b80f54d5c2945f50, type: 2}
+  - {fileID: 11400000, guid: 39cf73e50faf7374d95a68e2676d6916, type: 2}
 --- !u!114 &36759207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -622,8 +630,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 4
-  m_fontSizeBase: 4
+  m_fontSize: 2
+  m_fontSizeBase: 2
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -990,8 +998,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 531057833}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.71, y: 91.92, z: -5130}
-  m_LocalScale: {x: 114.11984, y: 107.87168, z: 57}
+  m_LocalPosition: {x: -12.71, y: 77.79, z: -5130}
+  m_LocalScale: {x: 114.11984, y: 120.816284, z: 57}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 676832831}

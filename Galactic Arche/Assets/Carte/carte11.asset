@@ -15,12 +15,12 @@ MonoBehaviour:
   carteID: 0
   NomCarte: 
   sprite: 10
-  DialogueGauche: 
-  DialogueDroite: 
+  DialogueGauche: Pas le temps!
+  DialogueDroite: Allons y
   Info: "Petite pause caf\xE9?"
   Grecherche: 0
   Gerreur: 0
-  GTemps: 10
+  GTemps: -10
   Drecherche: 0
   Derreur: 0
   DTemps: 10

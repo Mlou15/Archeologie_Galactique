@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b6a8c6fb9bebd24da3d485a46564848, type: 3}
+  m_Name: Carte15
+  m_EditorClassIdentifier: 
+  carteID: 0
+  NomCarte: "Mak\xE9"
+  sprite: 14
+  DialogueGauche: Non
+  DialogueDroite: Oui
+  Info: "Que voyons-nous l\xE0? une plan\xE8te naine et elle se trouve dans la voie
+    lact\xE9e.\nSelon les astronomes, Mak\xE9mak\xE9 serait de couleur rouge\xE2tre\nFait-elle
+    partie des plans de l'arch\xE9ologie galactique?"
+  Grecherche: 0
+  Gerreur: 5
+  GTemps: 0
+  Drecherche: 5
+  Derreur: 0
+  DTemps: 5

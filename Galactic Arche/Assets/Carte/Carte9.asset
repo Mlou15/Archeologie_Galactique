@@ -15,11 +15,11 @@ MonoBehaviour:
   carteID: 0
   NomCarte: Etoile de barnard
   sprite: 8
-  DialogueGauche: 
-  DialogueDroite: 
+  DialogueGauche: "Passons \xE0 une autre plan\xE8te!"
+  DialogueDroite: "Etudions l\xE0!"
   Info: "L'\xE9toile de Barnard se trouve dans la constellation zodiacale d'Ophiuchus.\nc'est
     la quatri\xE8me \xE9toile la plus proche du syst\xE8me solaire.\nElle a \xE9t\xE9
-    form\xE9e il y'a environ 10 milliards d'ann\xE9es.\nQue faisons-nous?"
+    form\xE9e il y'a environ 10 milliards d'ann\xE9es. \nQue faisons-nous?"
   Grecherche: -10
   Gerreur: 5
   GTemps: -10

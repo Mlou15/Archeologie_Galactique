@@ -15,15 +15,15 @@ MonoBehaviour:
   carteID: 0
   NomCarte: Kappa Andromeda
   sprite: 0
-  DialogueGauche: Non
-  DialogueDroite: Oui
+  DialogueGauche: "Non, on y a tout d\xE9couvert"
+  DialogueDroite: Il se pourrait que nous en apprenons plus sur notre galaxie
   Info: "Kappa Andromeda est une plan\xE8te dans l'univers d'androm\xE8de.\nComme
-    vous, le savez, votre mission est d'en d\xE9couvrir plus sur le\nfonctionnement
-    de la voie lact\xE9e.  Cependant, ces recherches peuvent potentielllement\nvous
-    aider pour le futur.  \nFaites votre choix.\nVoulez-vous \xE9tudier cette plan\xE8te?"
+    vous, le savez, votre mission est de chercher des r\xE9ponses sur l'arch\xE9ologie
+    galactique!  Cependant, ces recherches peuvent potentielllement\nvous aider pour
+    le futur.  \nFaites votre choix.\nVoulez-vous \xE9tudier cette plan\xE8te?"
   Grecherche: 0
   Gerreur: 0
-  GTemps: 10
+  GTemps: 5
   Drecherche: 0
-  Derreur: 10
+  Derreur: 5
   DTemps: 0

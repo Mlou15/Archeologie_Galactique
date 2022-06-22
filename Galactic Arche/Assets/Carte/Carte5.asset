@@ -22,7 +22,7 @@ MonoBehaviour:
     d'\xE9tude?\n"
   Grecherche: -5
   Gerreur: 10
-  GTemps: 10
-  Drecherche: 10
+  GTemps: 5
+  Drecherche: 5
   Derreur: -5
   DTemps: 10

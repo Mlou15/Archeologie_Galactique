@@ -15,10 +15,10 @@ MonoBehaviour:
   carteID: 0
   NomCarte: Kepler
   sprite: 5
-  DialogueGauche: 
-  DialogueDroite: 
+  DialogueGauche: cela n'en vaut pas la peine
+  DialogueDroite: "Allons l'\xE9tudier"
   Info: "Voici kepler,La plan\xE8te, d'un rayon environ 12 % plus grand que celui
-    de la Terre.\nIl semblerait que cette plan\xE8te est d\xE9j\xE0 assez bien \n\xE9tudi\xE9e.
+    de la Terre.\nIl semblerait que cette plan\xE8te soit d\xE9j\xE0 assez bien \n\xE9tudi\xE9e.
     \nVoulez-vous quand m\xEAme y consacrer du temps?"
   Grecherche: 0
   Gerreur: 10

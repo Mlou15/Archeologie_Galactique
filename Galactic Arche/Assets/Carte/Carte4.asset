@@ -19,7 +19,8 @@ MonoBehaviour:
   DialogueDroite: Oui
   Info: "C'est un trou noir! Elle fait partie de la voie lact\xE9e! \nVoulez-vous
     l'\xE9tudier malgr\xE9s le fait qu'elle ne soit pas une\n\xE9toile et une plan\xE8te?
-    On dit aussi qu'elle est au centre de la voie lact\xE9e"
+    On dit aussi qu'elle est au centre de la voie lact\xE9e. \nIl nous permettrait
+    de mieux calculer les distances entre les plan\xE8tes"
   Grecherche: 5
   Gerreur: 10
   GTemps: -10
