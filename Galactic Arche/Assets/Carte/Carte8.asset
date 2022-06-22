@@ -13,12 +13,16 @@ MonoBehaviour:
   m_Name: Carte8
   m_EditorClassIdentifier: 
   carteID: 0
-  NomCarte: 
+  NomCarte: Eridani
   sprite: 7
   DialogueGauche: 
   DialogueDroite: 
-  Info: 
+  Info: "82 Eridani, L'\xE9toile est une naine jaune de type spectral G5V. Son rayon
+    et sa masse sont respectivement 92 % et 97 % de ceux du Soleil.\nIl fait partie
+    de la constellation d'Eridan. \nSouhaitez-vous l'\xE9tudier?"
   Grecherche: 0
-  Gerreur: 0
+  Gerreur: -15
+  GTemps: -10
   Drecherche: 0
-  Derreur: 0
+  Derreur: 10
+  DTemps: 15

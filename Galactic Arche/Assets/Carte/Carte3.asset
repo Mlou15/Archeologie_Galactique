@@ -13,12 +13,17 @@ MonoBehaviour:
   m_Name: Carte3
   m_EditorClassIdentifier: 
   carteID: 0
-  NomCarte: PlaneteC
+  NomCarte: 'TRAPPIST-1 d '
   sprite: 2
-  DialogueGauche: Glisser vers la gauche
-  DialogueDroite: Glisser vers la droite
-  Info: 
-  Grecherche: 0
-  Gerreur: 0
+  DialogueGauche: Non
+  DialogueDroite: Oui
+  Info: "Plan\xE8te : TRAPPIST-1 d\r.\nUnivers : Voie Lact\xE9e.  \r\nComposition
+    d\xE9tect\xE9 : elle contient potentiellement de l\u2019eau.  \r\n \r\n\r\n                
+    Il y'a peu de chose a \xE9tudier sur\n\tcette plan\xE8te mais elle fait quand\n\tm\xEAme
+    partie de la voie lact\xE9e.\n\n"
+  Grecherche: 5
+  Gerreur: 5
+  GTemps: 5
   Drecherche: 10
-  Derreur: 0
+  Derreur: -5
+  DTemps: 5

@@ -13,12 +13,16 @@ MonoBehaviour:
   m_Name: Carte5
   m_EditorClassIdentifier: 
   carteID: 0
-  NomCarte: Planete5
-  sprite: 4
-  DialogueGauche: Glisser vers la gauche
-  DialogueDroite: Glisser vers la droite
-  Info: 
-  Grecherche: 0
+  NomCarte: Luyten b
+  sprite: 3
+  DialogueGauche: Non
+  DialogueDroite: Oui
+  Info: "Voici luyten B, la naine rouge. Elle se situe bien en orbite dans la zone
+    habitable.\nElle se trouve dans la voie lact\xE9e.\nVoulez-vous en faire un sujet
+    d'\xE9tude?\n"
+  Grecherche: -5
   Gerreur: 10
-  Drecherche: 0
-  Derreur: 0
+  GTemps: 10
+  Drecherche: 10
+  Derreur: -5
+  DTemps: 10

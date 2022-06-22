@@ -427,6 +427,7 @@
 "Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/Utils/QuaternionEqualityComparer.cs"
 "Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/Utils/StacktraceFilter.cs"
 "Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/Utils/TestRunCallbackAttribute.cs"
+"Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/Utils/TestRunCallbackListener.cs"
 "Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/Utils/Utils.cs"
 "Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/Utils/Vector2ComparerWithEqualsOperator.cs"
 "Library/PackageCache/com.unity.test-framework@1.1.31/UnityEngine.TestRunner/Utils/Vector2EqualityComparer.cs"

@@ -12,13 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b6a8c6fb9bebd24da3d485a46564848, type: 3}
   m_Name: Carte4
   m_EditorClassIdentifier: 
-  carteID: 1
-  NomCarte: PlaneteD
-  sprite: 3
-  DialogueGauche: Glisser vers la gauche
-  DialogueDroite: Glisser vers la droite
-  Info: 
-  Grecherche: 0
+  carteID: 0
+  NomCarte: sagittarius A
+  sprite: 4
+  DialogueGauche: Non
+  DialogueDroite: Oui
+  Info: "C'est un trou noir! Elle fait partie de la voie lact\xE9e! \nVoulez-vous
+    l'\xE9tudier malgr\xE9s le fait qu'elle ne soit pas une\n\xE9toile et une plan\xE8te?
+    On dit aussi qu'elle est au centre de la voie lact\xE9e"
+  Grecherche: 5
   Gerreur: 10
-  Drecherche: 0
-  Derreur: 0
+  GTemps: -10
+  Drecherche: 10
+  Derreur: 5
+  DTemps: 10

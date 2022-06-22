@@ -13,12 +13,16 @@ MonoBehaviour:
   m_Name: Carte2
   m_EditorClassIdentifier: 
   carteID: 0
-  NomCarte: PlaneteB
+  NomCarte: 14 Andromedae
   sprite: 1
-  DialogueGauche: 
-  DialogueDroite: Glisser vers la droite
-  Info: 
-  Grecherche: 10
-  Gerreur: 0
-  Drecherche: 0
+  DialogueGauche: Non
+  DialogueDroite: Oui
+  Info: "Plan\xE8te : 14 Andromedae\r\nUnivers : Androm\xE8de.  \r\nComposition d\xE9tect\xE9
+    : ?\r\n\n \r\n\rcette plan\xE8re est dans l'univers d'androm\xE8de\nMais elle
+    peut sans doute rajouter de la recherche.\n\n"
+  Grecherche: 0
+  Gerreur: -5
+  GTemps: -5
+  Drecherche: 10
   Derreur: 0
+  DTemps: 5

@@ -369,6 +369,7 @@
 "Library/PackageCache/com.unity.services.core@1.4.0/Editor/Core/Networking/ITokenExchangeUrls.cs"
 "Library/PackageCache/com.unity.services.core@1.4.0/Editor/Core/Networking/ProductionTokenExchangeUrls.cs"
 "Library/PackageCache/com.unity.services.core@1.4.0/Editor/Core/Networking/TokenExchange.cs"
+"Library/PackageCache/com.unity.services.core@1.4.0/Editor/Core/ProjectBindRedirect/ProjectBindRedirectContentUI.cs"
 "Library/PackageCache/com.unity.services.core@1.4.0/Editor/Core/ProjectBindRedirect/ProjectBindRedirectPopupUI.cs"
 "Library/PackageCache/com.unity.services.core@1.4.0/Editor/Core/ProjectBindRedirect/ProjectBindRedirectPopupWindow.cs"
 "Library/PackageCache/com.unity.services.core@1.4.0/Editor/Core/ProjectBindRedirect/ProjectBindRedirectProjectSettingsUi.cs"

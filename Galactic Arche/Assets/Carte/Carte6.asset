@@ -13,12 +13,16 @@ MonoBehaviour:
   m_Name: Carte6
   m_EditorClassIdentifier: 
   carteID: 0
-  NomCarte: "Plan\xE8te6"
+  NomCarte: Kepler
   sprite: 5
   DialogueGauche: 
   DialogueDroite: 
-  Info: 
-  Grecherche: 10
-  Gerreur: 0
+  Info: "Voici kepler,La plan\xE8te, d'un rayon environ 12 % plus grand que celui
+    de la Terre.\nIl semblerait que cette plan\xE8te est d\xE9j\xE0 assez bien \n\xE9tudi\xE9e.
+    \nVoulez-vous quand m\xEAme y consacrer du temps?"
+  Grecherche: 0
+  Gerreur: 10
+  GTemps: -5
   Drecherche: 10
-  Derreur: 0
+  Derreur: 2
+  DTemps: 10

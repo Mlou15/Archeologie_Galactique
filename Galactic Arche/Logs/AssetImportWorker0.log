@@ -15,7 +15,7 @@ C:/Users/mengl/Git/GitArche/Archeologie_Galactique/Galactic Arche
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63622
+63781
 Successfully changed project path to: C:/Users/mengl/Git/GitArche/Archeologie_Galactique/Galactic Arche
 C:/Users/mengl/Git/GitArche/Archeologie_Galactique/Galactic Arche
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/mengl/Git/GitArche/Archeologie_Galactique/Galactic Arche
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 65.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 64.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -63,47 +63,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005275 seconds.
+Registered in 0.026072 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 64.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 62.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.490 seconds
+- Completed reload, in  0.538 seconds
 Domain Reload Profiling:
-	ReloadAssembly (491ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (538ms)
+		BeginReloadAssembly (64ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (350ms)
-			LoadAssemblies (59ms)
+		EndReloadAssembly (363ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (75ms)
+			SetupTypeCache (79ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (215ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (220ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (65ms)
+				RefreshPlugins (62ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (103ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				ProcessInitializeOnLoadAttributes (112ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005690 seconds.
+Registered in 0.008175 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\mengl\Git\GitArche\Archeologie_Galactique\Galactic Arche\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\mengl\Git\GitArche\Archeologie_Galactique\Galactic Arche\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -112,43 +112,43 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.608 seconds
+- Completed reload, in  0.816 seconds
 Domain Reload Profiling:
-	ReloadAssembly (609ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (817ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (425ms)
-			LoadAssemblies (52ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (621ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (127ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (192ms)
+			SetupTypeCache (173ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (302ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (97ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3250 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (55.3 KB). Loaded Objects now: 3703.
-Memory consumption went from 112.2 MB to 112.2 MB.
-Total: 1.842100 ms (FindLiveObjects: 0.214800 ms CreateObjectMapping: 0.101800 ms MarkObjects: 1.469000 ms  DeleteObjects: 0.055800 ms)
+Unloading 3265 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (55.3 KB). Loaded Objects now: 3724.
+Memory consumption went from 113.8 MB to 113.7 MB.
+Total: 2.340600 ms (FindLiveObjects: 0.226700 ms CreateObjectMapping: 0.105100 ms MarkObjects: 1.944100 ms  DeleteObjects: 0.063800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,7 +163,409 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 621316.286167 seconds.
-  path: Packages/com.unity.test-framework/package.json
-  artifactKey: Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.test-framework/package.json using Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18898ccc8b096ee8f2e6704cc6568de') in 0.036199 seconds 
+  Time since last request: 621479.102121 seconds.
+  path: Assets/MilkyWay/Texture
+  artifactKey: Guid(011a5869475926f44b495bf414fe48f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MilkyWay/Texture using Guid(011a5869475926f44b495bf414fe48f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d49f425ee0a0e018510e5285e02c1fb') in 0.011389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MilkyWay/Texture/Materials
+  artifactKey: Guid(88a8a6d0b8fbb92459a9f4df1c01ac8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MilkyWay/Texture/Materials using Guid(88a8a6d0b8fbb92459a9f4df1c01ac8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d335e83f9922b738a3c50bdb7c7bdc') in 0.007306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MilkyWay/Texture/Materials/MilkyWayPanorama8K.mat
+  artifactKey: Guid(40b82b1c0a531864a81af5bc9cd1d2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MilkyWay/Texture/Materials/MilkyWayPanorama8K.mat using Guid(40b82b1c0a531864a81af5bc9cd1d2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52e74f0da960adeef3d51378691fb81') in 0.099437 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006291 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\mengl\Git\GitArche\Archeologie_Galactique\Galactic Arche\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\mengl\Git\GitArche\Archeologie_Galactique\Galactic Arche\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.871 seconds
+Domain Reload Profiling:
+	ReloadAssembly (871ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (653ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (226ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3246 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (24.7 KB). Loaded Objects now: 3766.
+Memory consumption went from 116.9 MB to 116.8 MB.
+Total: 2.207100 ms (FindLiveObjects: 0.195200 ms CreateObjectMapping: 0.094500 ms MarkObjects: 1.901300 ms  DeleteObjects: 0.014800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005400 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\mengl\Git\GitArche\Archeologie_Galactique\Galactic Arche\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\mengl\Git\GitArche\Archeologie_Galactique\Galactic Arche\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.785 seconds
+Domain Reload Profiling:
+	ReloadAssembly (786ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (606ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (275ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3246 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (24.6 KB). Loaded Objects now: 3769.
+Memory consumption went from 116.9 MB to 116.8 MB.
+Total: 2.256200 ms (FindLiveObjects: 0.204900 ms CreateObjectMapping: 0.091700 ms MarkObjects: 1.942200 ms  DeleteObjects: 0.016100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 71.490671 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_001.png
+  artifactKey: Guid(6ba9476efc666b443a3c966aa085ce68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_001.png using Guid(6ba9476efc666b443a3c966aa085ce68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5774536b86117908fe4c96a7bc90314b') in 0.117837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_055.png
+  artifactKey: Guid(71d8b6cd99ca1924c93d07f8f0afd023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_055.png using Guid(71d8b6cd99ca1924c93d07f8f0afd023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d869eac514b580472715e5542071cb') in 0.039220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_013.png
+  artifactKey: Guid(398cadcd03dba954ba16c4e65493c484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_013.png using Guid(398cadcd03dba954ba16c4e65493c484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c350131952dde5b0ad7cbd048ff301') in 0.028966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_017.png
+  artifactKey: Guid(59c2e04fb9098b8469b1c757b19dcde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_017.png using Guid(59c2e04fb9098b8469b1c757b19dcde4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4344956b59c2296fa1bdcdf6664f8c1d') in 0.027890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_026.png
+  artifactKey: Guid(1c61c78a39e270a438b6b24697311801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_026.png using Guid(1c61c78a39e270a438b6b24697311801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea3b93b984f422dffcf0c3aaa88a75b') in 0.030897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_080 1.png
+  artifactKey: Guid(a52318b6c22a50940a383dcb4b5cbf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_080 1.png using Guid(a52318b6c22a50940a383dcb4b5cbf09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aeb24295ff4fbac460b5f3c7cf185c4') in 0.028531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_070.png
+  artifactKey: Guid(1c3d4d2aaebc11c48b15fc9ecca95f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_070.png using Guid(1c3d4d2aaebc11c48b15fc9ecca95f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468790b45f6ddf6def09274eba821f96') in 0.028241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_041.png
+  artifactKey: Guid(8c0b607f690b1de45b813bff06445f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_041.png using Guid(8c0b607f690b1de45b813bff06445f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91274d16b1420c105fce066f612f3d5c') in 0.044249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_076 1.png
+  artifactKey: Guid(64ed82a7650439740a5c7e1efee2d730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_076 1.png using Guid(64ed82a7650439740a5c7e1efee2d730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6aea6ea25e188f4ae9610874dacf22') in 0.034679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_047.png
+  artifactKey: Guid(33862ea5bedc50744a997a50a24524f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_047.png using Guid(33862ea5bedc50744a997a50a24524f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea744f05e103b1b4ca0aa71b381fc80') in 0.019741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_075 1.png
+  artifactKey: Guid(10a9b034cf01e2446ac6d888597a908b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_075 1.png using Guid(10a9b034cf01e2446ac6d888597a908b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152d495714ca9e46d7ac7d10b09c4748') in 0.016548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_003.png
+  artifactKey: Guid(bda209fcfb9a240479d4380b9d50a5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_003.png using Guid(bda209fcfb9a240479d4380b9d50a5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc3163ede26737b7eb655a096bf2400') in 0.017895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_068.png
+  artifactKey: Guid(e2f8bddaefa4c424a92d3c3ef0470f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_068.png using Guid(e2f8bddaefa4c424a92d3c3ef0470f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f41aededd7b0152b2641ac248ddbf14') in 0.018481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_019.png
+  artifactKey: Guid(65d6bb9d1a4628247b8328d4d7e9e79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_019.png using Guid(65d6bb9d1a4628247b8328d4d7e9e79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcbefc094179620370a42b7b383c4a3') in 0.018549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_007.png
+  artifactKey: Guid(b0d7b5d899526944eb722e0b9814a544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_007.png using Guid(b0d7b5d899526944eb722e0b9814a544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec184a71be7220de940409d080eb2fb3') in 0.019177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_039.png
+  artifactKey: Guid(535268f1ed4312f49b00eba663b28188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_039.png using Guid(535268f1ed4312f49b00eba663b28188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d29b5f1ee1096bedb46b10dfcae709') in 0.018107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_060.png
+  artifactKey: Guid(b37077c2116a1e74aaec1413957cbb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_060.png using Guid(b37077c2116a1e74aaec1413957cbb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340589bf7b397709f80140003ee4918b') in 0.019512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_059.png
+  artifactKey: Guid(e0ed9268d7cb63846a8e09c25c550ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_059.png using Guid(e0ed9268d7cb63846a8e09c25c550ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d42b8fc71c0c88421786fdc95901c2') in 0.019067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_051.png
+  artifactKey: Guid(d9172716ccf63354aba38cfbe69414f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_051.png using Guid(d9172716ccf63354aba38cfbe69414f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a734c834231ae36b9838cbbec28d187c') in 0.018671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_024.png
+  artifactKey: Guid(80d5cb01ca77c3347868a56a8d64e78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_024.png using Guid(80d5cb01ca77c3347868a56a8d64e78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41830a22cacd8a88d5078864f33ab7c4') in 0.019526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_077.png
+  artifactKey: Guid(bb77043d6e6fe1a44a0ce0cb0d20d75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_077.png using Guid(bb77043d6e6fe1a44a0ce0cb0d20d75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8432b4b12411c3b1d93e15b2d1871354') in 0.019147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_008.png
+  artifactKey: Guid(6a9d68faca3fdc54e8f513f1508be213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_008.png using Guid(6a9d68faca3fdc54e8f513f1508be213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775c743304c4d661361db8853d87683a') in 0.019076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_055 1.png
+  artifactKey: Guid(7c4c25889498d334ab631364d70b9adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_055 1.png using Guid(7c4c25889498d334ab631364d70b9adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5d62187f92ca1e377a47d64be5305d') in 0.019609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_054.png
+  artifactKey: Guid(17c56c86e60837740983cb69fa18a7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_054.png using Guid(17c56c86e60837740983cb69fa18a7e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4586b01e21fe7acdc1b9ad4b16278e2c') in 0.017570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_074.png
+  artifactKey: Guid(3a7087a38209c2a4e8fe467cfcf9e999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_074.png using Guid(3a7087a38209c2a4e8fe467cfcf9e999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c86f7eb74bef8a0d7b32ce93a736f6') in 0.019741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_063.png
+  artifactKey: Guid(7d7b0a0e3dee4fa47a2918a69a043313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_063.png using Guid(7d7b0a0e3dee4fa47a2918a69a043313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb65bfb58b9e4becc68b3eb987999af') in 0.018754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_025.png
+  artifactKey: Guid(bd4f81a88e71c1e488ecf9720bdd16a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_025.png using Guid(bd4f81a88e71c1e488ecf9720bdd16a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a71923198088b24e3a54913e206ea94') in 0.018875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_042.png
+  artifactKey: Guid(9f6c4994b975dc94a896969b0e0442f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_042.png using Guid(9f6c4994b975dc94a896969b0e0442f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1241a919f7b1919f8d17236e5accb5') in 0.019331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_056.png
+  artifactKey: Guid(e8bf609c60489934cbe0a275f0b7d5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_056.png using Guid(e8bf609c60489934cbe0a275f0b7d5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb91cb1b7c7ee2d0f6857e0df4852090') in 0.019685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_050.png
+  artifactKey: Guid(8865d74e1d7fd6348947af62c79dd279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_050.png using Guid(8865d74e1d7fd6348947af62c79dd279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f03394f74a75c71be532603515088b') in 0.020136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_012.png
+  artifactKey: Guid(22498079d1c48714b99d141c3a9c819a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_012.png using Guid(22498079d1c48714b99d141c3a9c819a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c7b6f222ec101f0b9b364446b7f8af') in 0.020420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_010.png
+  artifactKey: Guid(56438e4ef030b914cbc2c28ddde43297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_010.png using Guid(56438e4ef030b914cbc2c28ddde43297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfab826ea1d1d7c9265a2f0bf249cf22') in 0.019816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_032.png
+  artifactKey: Guid(d883e59f9c1fd20418b0ad6fea582f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_032.png using Guid(d883e59f9c1fd20418b0ad6fea582f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b1a70be580da5d615ddb1f6f195eba') in 0.017730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_004.png
+  artifactKey: Guid(1ca808574e2fb6245b70e58dee6a3248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_004.png using Guid(1ca808574e2fb6245b70e58dee6a3248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e136a2ca6e6c47e7c204d30448c395') in 0.016921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_048.png
+  artifactKey: Guid(74619bb12e84fc44586b5582f6f09559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_048.png using Guid(74619bb12e84fc44586b5582f6f09559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309841d7d6d0b0f9487054dfec9e0595') in 0.016688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_035.png
+  artifactKey: Guid(ee2dba91b7726fb44a1a13ec7ef39c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_035.png using Guid(ee2dba91b7726fb44a1a13ec7ef39c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29fb981dd4d0aca5c71d6512f489eaf4') in 0.016660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_027.png
+  artifactKey: Guid(52cbc5517fe3f684c842e043b937e768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_027.png using Guid(52cbc5517fe3f684c842e043b937e768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bfdbbfed55b6330362195718f8d21a') in 0.017576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_045.png
+  artifactKey: Guid(a8137782498799041bcd57cbe79ab73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_045.png using Guid(a8137782498799041bcd57cbe79ab73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5fd7b43a6bec6de0def525f50bdd514') in 0.017718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_049.png
+  artifactKey: Guid(459ce45ea82fa1e4bb906aea8d8481ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_049.png using Guid(459ce45ea82fa1e4bb906aea8d8481ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81dd2baf3d8aa965c650db1751cb64e7') in 0.016895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_036.png
+  artifactKey: Guid(c1e203ad1f23ede41ae21c381efbdc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_036.png using Guid(c1e203ad1f23ede41ae21c381efbdc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d6b8af0f758de288dc77d052202ffd') in 0.017806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_018.png
+  artifactKey: Guid(c1aaf7e95f7632a4fb7fac08d78e5628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_018.png using Guid(c1aaf7e95f7632a4fb7fac08d78e5628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4545f586af48fc2240ca9a92759679') in 0.019577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_057.png
+  artifactKey: Guid(b9101de4e34366545b501980be715849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_057.png using Guid(b9101de4e34366545b501980be715849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41d2d8c640fffb1fe94a2492a39dc1b') in 0.027055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_016.png
+  artifactKey: Guid(54c1682f975701848bddac43e8191c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_016.png using Guid(54c1682f975701848bddac43e8191c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02b25a48d3c1fe6368f706df1b3874c') in 0.024170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_028.png
+  artifactKey: Guid(13091cce6235e9a499feab44856dead3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_028.png using Guid(13091cce6235e9a499feab44856dead3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c01e4250fbe34a5aab16862bc3fa6a') in 0.026542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_072.png
+  artifactKey: Guid(9f20ebc58ff72364b85d171168778c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlanetSprite/105 Colorful 2D Planet Icons/planet_072.png using Guid(9f20ebc58ff72364b85d171168778c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecdab4a3ce3686c09a4c3fe49aff1c75') in 0.066825 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

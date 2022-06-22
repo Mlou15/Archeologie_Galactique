@@ -373,6 +373,7 @@
 "Library/PackageCache/com.unity.ugui@1.0.0/Editor/UI/RawImageEditor.cs"
 "Library/PackageCache/com.unity.ugui@1.0.0/Editor/UI/RectMask2DEditor.cs"
 "Library/PackageCache/com.unity.ugui@1.0.0/Editor/UI/ScrollbarEditor.cs"
+"Library/PackageCache/com.unity.ugui@1.0.0/Editor/UI/ScrollRectEditor.cs"
 "Library/PackageCache/com.unity.ugui@1.0.0/Editor/UI/SelectableEditor.cs"
 "Library/PackageCache/com.unity.ugui@1.0.0/Editor/UI/SelfControllerEditor.cs"
 "Library/PackageCache/com.unity.ugui@1.0.0/Editor/UI/SliderEditor.cs"

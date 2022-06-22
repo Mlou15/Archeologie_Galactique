@@ -359,6 +359,7 @@
 "Library/PackageCache/com.unity.ide.rider@3.0.14/Rider/Editor/RiderStyles.cs"
 "Library/PackageCache/com.unity.ide.rider@3.0.14/Rider/Editor/UnitTesting/CallbackData.cs"
 "Library/PackageCache/com.unity.ide.rider@3.0.14/Rider/Editor/UnitTesting/CallbackInitializer.cs"
+"Library/PackageCache/com.unity.ide.rider@3.0.14/Rider/Editor/UnitTesting/RiderTestRunner.cs"
 "Library/PackageCache/com.unity.ide.rider@3.0.14/Rider/Editor/UnitTesting/SyncTestRunCallback.cs"
 "Library/PackageCache/com.unity.ide.rider@3.0.14/Rider/Editor/UnitTesting/SyncTestRunEventsHandler.cs"
 "Library/PackageCache/com.unity.ide.rider@3.0.14/Rider/Editor/UnitTesting/TestEvent.cs"

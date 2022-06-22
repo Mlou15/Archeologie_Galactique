@@ -13,8 +13,16 @@ MonoBehaviour:
   m_Name: Carte7
   m_EditorClassIdentifier: 
   carteID: 0
-  NomCarte: Planete7
+  NomCarte: Proxima
   sprite: 6
   DialogueGauche: 
   DialogueDroite: 
-  Info: 
+  Info: "Proxima Centauri B se trouve dans la voie lact\xE9e.\nLa plan\xE8te a une
+    masse minimale environ 30 % sup\xE9rieure \xE0 celle de la Terre.\nUne th\xE9orie
+    voudrait qu'elle soit gorg\xE9e d'eau.\nVoulez-vous l'\xE9tudier?"
+  Grecherche: 0
+  Gerreur: 15
+  GTemps: -10
+  Drecherche: 10
+  Derreur: 0
+  DTemps: 10

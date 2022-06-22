@@ -25,14 +25,16 @@ public class MouseExit : MonoBehaviour
 
 public enum Planete
 {
-    Planete_A,
-    Planete_B,
-    Planete_C,
-    Planete_D,
-    Planete_E,
-    Planete_F,
-    Planete_G,
-    Planete_H,
-    Planete_I,
+    Kappa,
+    andromedae,
+    Trappist,
+    Luytenb,
+    SagittarusA,
+    Kepler,
+    Proxima_Centauri,
+    Eridani,
+    Barnard,
+    dodo,
+    pause_café,
     
 }

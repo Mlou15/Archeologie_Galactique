@@ -17,9 +17,13 @@ MonoBehaviour:
   sprite: 0
   DialogueGauche: Non
   DialogueDroite: Oui
-  Info: "Plan\xE8te : Kappa andromeda. \nUnivers : Androm\xE8de.  \nComposition d\xE9tect\xE9
-    : Vapeur d\u2019eau. \n\n                 Voulez-vous m\u2019\xE9tudier ? "
+  Info: "Kappa Andromeda est une plan\xE8te dans l'univers d'androm\xE8de.\nComme
+    vous, le savez, votre mission est d'en d\xE9couvrir plus sur le\nfonctionnement
+    de la voie lact\xE9e.  Cependant, ces recherches peuvent potentielllement\nvous
+    aider pour le futur.  \nFaites votre choix.\nVoulez-vous \xE9tudier cette plan\xE8te?"
   Grecherche: 0
   Gerreur: 0
+  GTemps: 10
   Drecherche: 0
-  Derreur: 5
+  Derreur: 10
+  DTemps: 0

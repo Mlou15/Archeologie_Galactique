@@ -30,6 +30,7 @@ public class TinderSwap : MonoBehaviour
     //Jauge 
     public static int jaugeRecherche;
     public static int JaugeErreur;
+    public static int JaugeTemps;
     public static int ValeurMax=100;
     public static int ValeurMin=0;
     
@@ -39,6 +40,18 @@ public class TinderSwap : MonoBehaviour
      void Start()
     {
         ChargeCarte(CarteActu);
+    }
+
+    void FinduJeu()
+    {
+        if (jaugeRecherche >= ValeurMax)
+        {
+            Debug.Log("Gagner");
+        }
+        else if(JaugeErreur >= ValeurMax)
+        {
+            Debug.Log("Perdre");
+        }
     }
     void ChargementDialogue()
     {
@@ -100,6 +113,9 @@ public class TinderSwap : MonoBehaviour
             }
         }
         ChargementDialogue();
+        FinduJeu();
+
+
 
         if (Input.GetMouseButton(0)&&Mouxit.isMouseOver) //Mouvement de la carte avec la touche gauche de la souris
         {
@@ -123,12 +139,25 @@ public class TinderSwap : MonoBehaviour
         InfoCarte.text = carte.Info;
 
     }
-
+    int randomNumber;
+    int lastNumber;
+    int maxTry = 20;
     public void ChangementCarte()
     {
-        int random = Random.Range(0, GSPlanete.Cartes.Length) ;
-        ChargeCarte(GSPlanete.Cartes[random]);
+       for(int i=0;randomNumber == lastNumber && i<maxTry; i++)
+        {
+            randomNumber = Random.Range(0, GSPlanete.Cartes.Length);
+        }
+         lastNumber = randomNumber;
+        
+
+        ChargeCarte(GSPlanete.Cartes[randomNumber]);
+        
+        
+      
+    
     }
+    
 
 
 }
