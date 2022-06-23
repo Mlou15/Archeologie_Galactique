@@ -1,0 +1,601 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1655990255524613, "dur": 6712016, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655990255525568, "dur": 22804, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655990255548668, "dur": 47575, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655990255596261, "dur": 909349, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655990256505613, "dur": 5720549, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655990262226177, "dur": 10451, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655990270234220, "dur": 2453105, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655990270234434, "dur": 6005, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655990270240442, "dur": 47470, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655990270287914, "dur": 1473129, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655990271761046, "dur": 916490, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655990272677537, "dur": 9787, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655990272688616, "dur": 17, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1655990271579883, "dur": 139855, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655990271580663, "dur": 36554, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655990271705635, "dur": 4323, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655990271709961, "dur": 9770, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655990271710525, "dur": 7612, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655990271724744, "dur": 1018, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655990271724107, "dur": 1677, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655990272688732, "dur": 202, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1655990271810151, "dur":2189, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990271812347, "dur":29, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1655990271812383, "dur":11, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1655990271812395, "dur":823, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1655990271813258, "dur":442, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990271813700, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272648146, "dur":860, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649006, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649014, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649015, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649021, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649022, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649034, "dur":28, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649062, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649067, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649069, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649073, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649074, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649078, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649079, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649083, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649084, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649088, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649090, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649103, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649104, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649108, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649110, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649114, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649115, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649118, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649119, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649123, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649124, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649128, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649129, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649133, "dur":57, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649191, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649195, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649214, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272649263, "dur":2313, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1655990271813632, "dur":126, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655990271813758, "dur":4106, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655990271817864, "dur":8829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1655990271826698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655990271827106, "dur":4839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1655990271831996, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1655990271832136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655990271832141, "dur":98863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1655990271931094, "dur":16289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655990271947386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655990271947483, "dur":20955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655990271968492, "dur":17178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655990271985674, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655990271985682, "dur":29477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655990272015213, "dur":128297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655990272143516, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655990272143525, "dur":28944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655990272172524, "dur":70508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655990272243039, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655990272243048, "dur":32293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655990272275392, "dur":70790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655990272346185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655990272346189, "dur":8230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655990272354467, "dur":113349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655990272467820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655990272467828, "dur":12989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655990272480865, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1655990272480909, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655990272480914, "dur":2097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1655990272483066, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1655990272483109, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655990272483113, "dur":2625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/level1" }}
+,{ "pid":12345, "tid":1, "ts":1655990272485795, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1655990272485963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655990272485969, "dur":2098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1655990272488117, "dur":160028, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655990271813599, "dur":106, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655990271813706, "dur":4071, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655990271817784, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1655990271817787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655990271819954, "dur":1425, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1655990271821383, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1655990271821448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655990271822046, "dur":10154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1655990271832201, "dur":114921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655990271947128, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655990271947308, "dur":113909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655990272061268, "dur":30315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655990272091589, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655990272091598, "dur":30512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655990272122158, "dur":16429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655990272138592, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655990272138601, "dur":44227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655990272182886, "dur":18556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655990272201448, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655990272201456, "dur":19061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655990272220562, "dur":88147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655990272308716, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655990272308767, "dur":29808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655990272338625, "dur":19835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655990272358464, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655990272358472, "dur":15506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655990272374032, "dur":74834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655990272448873, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655990272448881, "dur":4686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655990272453618, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1655990272453674, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655990272453723, "dur":2990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1655990272456757, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":2, "ts":1655990272456796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655990272456800, "dur":2631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":2, "ts":1655990272459501, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1655990272459555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655990272459561, "dur":8172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1655990272467801, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1655990272467849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655990272467853, "dur":3064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1655990272470996, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1655990272471182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655990272471187, "dur":3316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1655990272474598, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1655990272474652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655990272474659, "dur":4326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1655990272479052, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1655990272479101, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655990272479109, "dur":2368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1655990272481524, "dur":382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1655990272481908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655990272481912, "dur":2099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1655990272484058, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1655990272484107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655990272484111, "dur":4429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1655990272488594, "dur":159541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655990271814031, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655990271814031, "dur":3751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655990271817784, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1655990271817980, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655990271822244, "dur":10191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1655990271832509, "dur":24631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche.exe" }}
+,{ "pid":12345, "tid":3, "ts":1655990271857145, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655990271857151, "dur":83572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche.exe" }}
+,{ "pid":12345, "tid":3, "ts":1655990271940789, "dur":18019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655990271958814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655990271958822, "dur":41068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655990271999942, "dur":26910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655990272026856, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655990272026865, "dur":24521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655990272053295, "dur":16641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655990272069943, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655990272069952, "dur":41723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655990272111732, "dur":43300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655990272155036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655990272155043, "dur":38139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655990272193232, "dur":21649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655990272214886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655990272214895, "dur":18413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655990272233358, "dur":18358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655990272251721, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655990272251729, "dur":27340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655990272279121, "dur":69734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655990272348858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655990272348863, "dur":10801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655990272359725, "dur":25136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655990272384867, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655990272384875, "dur":3974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655990272388907, "dur":153570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655990272542481, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655990272542487, "dur":19630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655990272562152, "dur":85998, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655990271813777, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655990271813777, "dur":4048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655990271817825, "dur":7189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1655990271825017, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655990271825754, "dur":6368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1655990271832185, "dur":100828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655990271933016, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655990271933615, "dur":28372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655990271962045, "dur":24158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655990271986207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655990271986220, "dur":49466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655990272035740, "dur":30918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655990272066664, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655990272066673, "dur":66657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655990272133398, "dur":57590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655990272190991, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655990272190996, "dur":53519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655990272244575, "dur":22224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655990272266804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655990272266866, "dur":63472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655990272330392, "dur":18224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655990272348619, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655990272348625, "dur":7920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655990272356604, "dur":53832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655990272410440, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655990272410448, "dur":15286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655990272425789, "dur":34454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655990272460246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655990272460251, "dur":5844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655990272466152, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1655990272466207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655990272466215, "dur":3107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1655990272469390, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1655990272469437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655990272469443, "dur":11879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1655990272481376, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1655990272481457, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655990272481462, "dur":2024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1655990272483553, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1655990272483602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655990272483606, "dur":2401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1655990272486068, "dur":162070, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655990271813904, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655990271813905, "dur":3920, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655990271817826, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1655990271818228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655990271839653, "dur":240301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1655990272080008, "dur":17469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655990272097484, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655990272097494, "dur":25665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655990272123233, "dur":21166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655990272144406, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655990272144413, "dur":92231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655990272237412, "dur":21087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655990272258505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655990272258514, "dur":47451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655990272306019, "dur":187957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655990272493980, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1655990272493987, "dur":5824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1655990272499847, "dur":148306, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655990271814157, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655990271814157, "dur":3624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655990271817784, "dur":31859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1655990271849650, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655990271850413, "dur":82415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1655990271932880, "dur":29376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655990271962259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655990271962265, "dur":30403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655990271992725, "dur":16810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655990272009542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655990272009551, "dur":20714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655990272030319, "dur":65047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655990272095374, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655990272095384, "dur":86300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655990272181755, "dur":15581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655990272197343, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655990272197354, "dur":57887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655990272255291, "dur":34933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655990272290230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655990272290239, "dur":22520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655990272312813, "dur":33309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655990272346125, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655990272346133, "dur":7713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655990272353901, "dur":123780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655990272477689, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1655990272477699, "dur":13072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1655990272490817, "dur":157335, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655990271814282, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655990271814282, "dur":3540, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655990271817822, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1655990271818223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655990271831415, "dur":4259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1655990271835722, "dur":95364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655990271931090, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655990271931669, "dur":19661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655990271951376, "dur":120230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655990272071611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655990272071618, "dur":67032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655990272138707, "dur":34863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655990272173574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655990272173582, "dur":29653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655990272203293, "dur":49567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655990272252865, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655990272252873, "dur":52444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655990272305366, "dur":88549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655990272393922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655990272393930, "dur":17529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655990272411509, "dur":101351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655990272512862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1655990272512868, "dur":3895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1655990272516798, "dur":131345, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655990271814407, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655990271814407, "dur":3386, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655990271817793, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1655990271818074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655990271829846, "dur":196214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1655990272026116, "dur":30202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655990272056322, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655990272056329, "dur":61004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655990272117385, "dur":16705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655990272134093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655990272134101, "dur":17640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655990272151798, "dur":39130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655990272190933, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655990272190942, "dur":29119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655990272220115, "dur":17616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655990272237735, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655990272237776, "dur":27738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655990272265568, "dur":26673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655990272292245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655990272292250, "dur":20889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655990272313184, "dur":33390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655990272346577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655990272346581, "dur":7085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655990272353726, "dur":70034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655990272423763, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655990272423804, "dur":7189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655990272431048, "dur":141093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655990272572145, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1655990272572151, "dur":4065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1655990272576250, "dur":71894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655990271814528, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655990271814528, "dur":3256, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655990271817786, "dur":9087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1655990271826876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655990271826978, "dur":4869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1655990271831908, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1655990271832016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655990271832024, "dur":101325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":9, "ts":1655990271933408, "dur":28153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655990271961566, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655990271961574, "dur":29226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655990271990853, "dur":63067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655990272053926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655990272053934, "dur":86993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655990272140973, "dur":26808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655990272167829, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655990272167837, "dur":31044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655990272198938, "dur":39795, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655990272238737, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655990272238745, "dur":31759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655990272270559, "dur":20972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655990272291536, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655990272291545, "dur":35488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655990272327087, "dur":43877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655990272370970, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655990272370978, "dur":3270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655990272374292, "dur":28368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655990272402664, "dur":99, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655990272402771, "dur":5896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655990272408979, "dur":108636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655990272517619, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1655990272517627, "dur":13269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1655990272530932, "dur":117221, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655990271814660, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655990271814660, "dur":3167, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655990271817827, "dur":9434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1655990271827264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655990271827376, "dur":5050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1655990271832491, "dur":101174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1655990271933668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655990271933673, "dur":28247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1655990271961983, "dur":22750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655990271984737, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655990271984746, "dur":30746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655990272015548, "dur":123767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655990272139318, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655990272139325, "dur":15336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655990272154710, "dur":22013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655990272176726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655990272176731, "dur":39647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655990272216422, "dur":19732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655990272236158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655990272236166, "dur":26197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655990272262424, "dur":104242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655990272366672, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655990272366681, "dur":20092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655990272386824, "dur":159928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655990272546756, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1655990272546763, "dur":5944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1655990272552756, "dur":95391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655990271814780, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655990271814781, "dur":3042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655990271817823, "dur":9695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1655990271827520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655990271827734, "dur":4688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1655990271832486, "dur":134453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655990271966944, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655990271966953, "dur":382422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655990272349430, "dur":195230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655990272544688, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1655990272544695, "dur":25059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1655990272569789, "dur":78350, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655990271814903, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655990271814903, "dur":2924, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655990271817827, "dur":480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1655990271818310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655990271846128, "dur":86509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1655990271932694, "dur":27851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655990271960549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655990271960557, "dur":43710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655990272004319, "dur":46069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655990272050394, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655990272050402, "dur":27497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655990272077951, "dur":23317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655990272101271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655990272101275, "dur":35767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655990272137093, "dur":39133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655990272176232, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655990272176240, "dur":68972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655990272245268, "dur":38342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655990272283616, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655990272284570, "dur":49988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655990272334615, "dur":8404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655990272343056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655990272343065, "dur":3544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655990272346657, "dur":776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655990272347436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655990272347443, "dur":9978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655990272357475, "dur":57970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655990272415449, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655990272415457, "dur":11116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655990272426617, "dur":187986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655990272614607, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1655990272614613, "dur":33456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1655990272648106, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1655990272648108, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1655990271815027, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1655990271815027, "dur":2797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1655990271817824, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1655990271818230, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1655990271840630, "dur":91963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1655990271932651, "dur":17852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655990271950510, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1655990271950523, "dur":24542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655990271975119, "dur":17363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655990271992488, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1655990271992496, "dur":31370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655990272023920, "dur":31908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655990272055833, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1655990272055841, "dur":28489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655990272084387, "dur":16811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655990272101205, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1655990272101215, "dur":44729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655990272146005, "dur":39374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655990272185386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1655990272185395, "dur":88515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655990272273967, "dur":39476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655990272313446, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1655990272313454, "dur":3656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655990272317160, "dur":21580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655990272338743, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1655990272338768, "dur":3855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655990272342679, "dur":660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655990272343341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1655990272343346, "dur":4089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655990272347499, "dur":66361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655990272413865, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1655990272413873, "dur":9066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655990272422989, "dur":78964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655990272501959, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1655990272501968, "dur":10321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":13, "ts":1655990272512340, "dur":135816, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655990271815152, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655990271815153, "dur":2639, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655990271817793, "dur":9114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1655990271826910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655990271826992, "dur":4757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1655990271831807, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1655990271831945, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655990271831952, "dur":196639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1655990272028681, "dur":43610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655990272072294, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655990272072301, "dur":57800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655990272130153, "dur":56210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655990272186368, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655990272186376, "dur":68749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655990272255182, "dur":32475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655990272287663, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655990272287675, "dur":36748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655990272324464, "dur":73052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655990272397521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655990272397529, "dur":4057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655990272401631, "dur":31133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655990272432769, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655990272432777, "dur":4383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655990272437211, "dur":837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655990272438052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655990272438059, "dur":11308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":14, "ts":1655990272449419, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":14, "ts":1655990272449589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655990272451849, "dur":2406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":14, "ts":1655990272454303, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":14, "ts":1655990272454348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655990272454353, "dur":2240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":14, "ts":1655990272456658, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1655990272456706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655990272456712, "dur":3221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1655990272459993, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":14, "ts":1655990272460037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655990272460041, "dur":2520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":14, "ts":1655990272462630, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1655990272462682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655990272462694, "dur":7989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1655990272470741, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":14, "ts":1655990272470782, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655990272470788, "dur":3709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":14, "ts":1655990272474547, "dur":4898, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":14, "ts":1655990272479447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655990272479452, "dur":2303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":14, "ts":1655990272481816, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/level2" }}
+,{ "pid":12345, "tid":14, "ts":1655990272481868, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655990272481872, "dur":2129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/level2" }}
+,{ "pid":12345, "tid":14, "ts":1655990272484054, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":14, "ts":1655990272484106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1655990272484110, "dur":3606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":14, "ts":1655990272487776, "dur":160361, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655990271815271, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655990271815272, "dur":2554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655990271817826, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1655990271818294, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655990271841947, "dur":93598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1655990271935617, "dur":17437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655990271953059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655990271953068, "dur":31665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655990271984797, "dur":18625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655990272003428, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655990272003437, "dur":54427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655990272057931, "dur":51596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655990272109533, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655990272109543, "dur":67114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655990272176731, "dur":16948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655990272193716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655990272193723, "dur":53714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655990272247491, "dur":36385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655990272283879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655990272283886, "dur":61945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655990272345886, "dur":32325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655990272378217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655990272378225, "dur":18181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655990272396474, "dur":134739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655990272531216, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1655990272531221, "dur":16433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1655990272547692, "dur":100455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655990271815291, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655990271815291, "dur":2497, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655990271817791, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1655990271818030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655990271822091, "dur":12862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1655990271835018, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":16, "ts":1655990271835194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655990271835657, "dur":101240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":16, "ts":1655990271936953, "dur":25878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655990271962835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655990271962841, "dur":24223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655990271987120, "dur":73596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655990272060722, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655990272060732, "dur":21924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655990272082706, "dur":20295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655990272103007, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655990272103015, "dur":54800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655990272157862, "dur":30559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655990272188427, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655990272188436, "dur":24225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655990272212712, "dur":37657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655990272250375, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655990272250383, "dur":28823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655990272279255, "dur":40538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655990272319800, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655990272319848, "dur":4410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655990272324314, "dur":24202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655990272348523, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655990272348532, "dur":4985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655990272353575, "dur":41215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655990272394794, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655990272394801, "dur":21921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655990272416767, "dur":88870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655990272505642, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1655990272505648, "dur":5463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/mengl/Proto/Galactic Arche_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":16, "ts":1655990272511165, "dur":136992, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655990272654137, "dur":1996, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1655990272689010, "dur": 4821, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655990272688604, "dur": 5285, "ph": "X", "name": "Write chrome-trace events", "args": {} },
