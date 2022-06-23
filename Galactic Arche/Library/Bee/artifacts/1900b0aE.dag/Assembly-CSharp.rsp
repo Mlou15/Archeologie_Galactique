@@ -343,11 +343,12 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/scripte/Carte.cs"
-"Assets/scripte/GestionPlanete.cs"
-"Assets/scripte/JaugeManager.cs"
-"Assets/scripte/MouseExit.cs"
-"Assets/scripte/TinderSwap.cs"
+"Assets/script/Carte.cs"
+"Assets/script/GestionPlanete.cs"
+"Assets/script/JaugeManager.cs"
+"Assets/script/MenuManager.cs"
+"Assets/script/MouseExit.cs"
+"Assets/script/TinderSwap.cs"
 -langversion:9.0
 
 /deterministic
