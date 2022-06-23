@@ -7,10 +7,23 @@ public class MenuManager : MonoBehaviour
 {
     public void LoadGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(3);
     }
     public void QuitGame()
     {
         Application.Quit();
+    }
+    
+    public void RetourMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+    public void SceneRoll()
+    {
+        SceneManager.LoadScene(1);
+    }
+   public void SceneExplication()
+    {
+        SceneManager.LoadScene(2);
     }
 }

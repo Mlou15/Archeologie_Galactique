@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class TinderSwap : MonoBehaviour
@@ -47,10 +48,16 @@ public class TinderSwap : MonoBehaviour
         if (jaugeRecherche >= ValeurMax)
         {
             Debug.Log("Gagner");
+            SceneManager.LoadScene(4);
         }
         else if(JaugeErreur >= ValeurMax)
         {
             Debug.Log("Perdre");
+            SceneManager.LoadScene(5);
+        }
+        else if(JaugeTemps >= ValeurMax)
+        {
+            SceneManager.LoadScene(5);
         }
     }
     void ChargementDialogue()
